@@ -8,3 +8,28 @@
 // 요소들을 적절하게 변수에 담기
 // hint) forEach()구문 사용
 
+const startbtn = document.querySelector('#start');
+const finishbtn = document.querySelector('#finish');
+const content = document.querySelector('#content');
+const blocks = document.querySelectorAll('.block');
+
+startbtn.addEventListener('click',function(){
+    location.href = 'game.html';
+})
+
+finishbtn.addEventListener('click',function(){
+    location.href = 'index.html';
+    alert('성공!');
+})
+
+// content.addEventListener('mouseleave',function(){
+//     location.href = 'index.html';
+//     alert('정해진 영역에서 수행해주세요!');
+// })
+
+blocks.forEach(function(t){
+    t.onmouseover = function(){
+        location.href = 'index.html';
+        alert('실패!');
+    }
+})
