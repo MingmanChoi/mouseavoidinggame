@@ -1,0 +1,74 @@
+/*normal css*/
+body{
+    margin:0;
+}
+#content{
+    border:3px solid black;
+    width:1130.68px;
+    height:752px;
+}
+#start, #finish{
+    border: 3px solid #393e46;
+    background-color: aquamarine;
+    padding:30px;
+    font-size: 30px;
+    display:inline-block;
+}
+#finish{
+    position: absolute;
+    top:650px;
+    left:1000px;
+}
+#title{
+    font-size: 3vw;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.block{
+    margin:0;
+    position: absolute;
+    background-color: #99d8d0;
+    height:200px;
+}
+
+#b1{
+    margin-top: 10px;
+    left:3px;
+    width: 500px;;
+}
+#b2{
+    top: 109px;
+    height: 197px;
+    left:523px;
+    width: 610.68px;
+}
+#b3{
+    width: 600px;
+    top:319px;
+    left:3px;
+}
+#b4{
+    left:623px;
+    width: 510.68px;
+    top:300px;
+    height:250px;
+}
+#b5{
+    width:1113.68px;
+    height:100px;
+    top:546px;
+    left:20px;
+}
+#b6{
+    width:996px;
+    height:89px;
+    top:663px;
+    left:3px;
+}
+#b7{
+    width:996px;
+    height:106px;
+    top:3px;
+    left:137.68px;
+}
